@@ -6,12 +6,14 @@ type DBOpts struct {
 }
 
 type Store interface {
-	GetUsers() ([]Users, error)
+	GetUsers() ([]User, error)
 	AddUser(User) error
 }
 
 type User struct {
-	Email string
+	Email           string
+	ZipCode         string
+	Representatives []string
 }
 
 func GetStore(opts DBOpts) Store {

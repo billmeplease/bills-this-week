@@ -5,17 +5,34 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.3/foundation.min.css">
-    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="/assets/styles/main.css">
     <title>Enable feature for a user</title>
   </head>
   <body>
 	  <div class="container">
 		<form action="/submit" role="form" method="POST">
-	  	  	<div class="small-6 columns">
-	  	  		Email:
-	  	  		<input type=text name="email">
-	  	  	</div>
-	  	  	<div class="small-12 columns" style="text-align: center">
+			<div class="form-fields">
+				<div class="row copy">
+					Some sort of copy thats going here about email your senetor
+				</div>
+				<div class="row">
+					<div class="small-4 columns">
+						Email:
+					</div>
+					<div class="small-8 columns">
+						<input type=email name="email">
+					</div>
+				</div>
+				<div class="row">
+					<div class="small-4 columns">
+						Zipcode:
+					</div>
+					<div class="small-8 columns">
+						<input type=text pattern=\d{5} name="zipcode"class="small-6 columns">
+					</div>
+				</div>
+			</div>
+	  	  	<div style="text-align: center">
 	  	  		<div class="button">
 	  	  			<button type="submit">Submit</button>
 	  	  		</div>
@@ -23,4 +40,5 @@
 	  	</form>
 	  </div>
   </body>
+  <script src="/assets/javascript/index.js"></script>
 </html>
