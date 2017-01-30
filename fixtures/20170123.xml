@@ -1,0 +1,221 @@
+<floorschedule congress-num="115" week-date="2017-01-23" create-date="2017-01-13T12:08:34.003" orig-publish-date="2017-01-17T14:15:05.413" update-date="2017-01-24T13:31:29.320">
+  <current-status>R</current-status>
+  <language>en-us</language>
+  <copyright>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</copyright>
+  <publish-dates>
+    <publish-date date="2017-01-17T14:15:05.413" />
+    <publish-date date="2017-01-19T13:30:14.620" />
+    <publish-date date="2017-01-19T17:30:14.657" />
+    <publish-date date="2017-01-20T13:11:54.730" />
+    <publish-date date="2017-01-23T13:00:02.240" />
+    <publish-date date="2017-01-23T19:20:01.890" />
+    <publish-date date="2017-01-24T09:32:32.577" />
+    <publish-date date="2017-01-24T13:31:29.320" />
+  </publish-dates>
+  <category type="Items that may be considered under suspension of the rules" sort-order="1">
+    <floor-items>
+      <floor-item id="402143" add-date="2017-01-19T11:26:12.100" remove-date="" sort-order="1" publish-date="2017-01-19T13:30:14.620">
+        <legis-num>H.R. 511</legis-num>
+        <floor-text>Power And Security Systems (PASS) Act </floor-text>
+        <files>
+          <file doc-url="http://docs.house.gov/billsthisweek/20170123/HR511.pdf" doc-type="PDF" add-date="2017-01-19T11:26:12.557" sort-order="1" publish-date="2017-01-19T13:30:14.620" />
+        </files>
+      </floor-item>
+      <floor-item id="402144" add-date="2017-01-19T11:26:34.907" remove-date="" sort-order="2" publish-date="2017-01-19T13:30:14.620">
+        <legis-num>H.R. 338</legis-num>
+        <floor-text>To promote a 21st century energy and manufacturing workforce, as amended</floor-text>
+        <updates>
+          <update-date date="2017-01-19T15:11:47.430" publish-date="2017-01-19T17:30:14.657">
+            <explanatory-notes doc-modified="True">Technical Correction</explanatory-notes>
+          </update-date>
+        </updates>
+        <files>
+          <file doc-url="http://docs.house.gov/billsthisweek/20170123/HR338-2.pdf" doc-type="PDF" add-date="2017-01-19T15:11:47.463" sort-order="2" publish-date="2017-01-19T13:30:14.620" />
+        </files>
+      </floor-item>
+      <floor-item id="402145" add-date="2017-01-19T11:26:52.613" remove-date="" sort-order="3" publish-date="2017-01-19T13:30:14.620">
+        <legis-num>H.R. 587</legis-num>
+        <floor-text>Fair RATES Act</floor-text>
+        <files>
+          <file doc-url="http://docs.house.gov/billsthisweek/20170123/HR587.pdf" doc-type="PDF" add-date="2017-01-19T11:26:53.063" sort-order="1" publish-date="2017-01-19T13:30:14.620" />
+        </files>
+      </floor-item>
+      <floor-item id="402146" add-date="2017-01-19T11:27:10.910" remove-date="" sort-order="4" publish-date="2017-01-19T13:30:14.620">
+        <legis-num>H.R. 590</legis-num>
+        <floor-text>Advanced Nuclear Technology Development Act of 2017 </floor-text>
+        <updates>
+          <update-date date="2017-01-20T13:10:40.007" publish-date="2017-01-20T13:11:54.730">
+            <explanatory-notes doc-modified="False" />
+          </update-date>
+          <update-date date="2017-01-20T13:11:17.230" publish-date="2017-01-20T13:11:54.730">
+            <explanatory-notes doc-modified="True">Bill Number Added</explanatory-notes>
+          </update-date>
+        </updates>
+        <files>
+          <file doc-url="http://docs.house.gov/billsthisweek/20170123/HR___LATTA.pdf" doc-type="PDF" add-date="2017-01-19T11:27:11.360" sort-order="1" publish-date="2017-01-19T13:30:14.620" />
+        </files>
+      </floor-item>
+      <floor-item id="402147" add-date="2017-01-19T11:27:30.457" remove-date="" sort-order="5" publish-date="2017-01-19T13:30:14.620">
+        <legis-num>H.R. 518</legis-num>
+        <floor-text>EPS Improvement Act of 2017</floor-text>
+        <files>
+          <file doc-url="http://docs.house.gov/billsthisweek/20170123/HR518.PDF" doc-type="PDF" add-date="2017-01-19T11:27:30.900" sort-order="1" publish-date="2017-01-19T13:30:14.620" />
+        </files>
+      </floor-item>
+      <floor-item id="402148" add-date="2017-01-19T11:27:44.530" remove-date="" sort-order="6" publish-date="2017-01-19T13:30:14.620">
+        <legis-num>H.R. 423</legis-num>
+        <floor-text>Anti-Spoofing Act of 2017 </floor-text>
+        <files>
+          <file doc-url="http://docs.house.gov/billsthisweek/20170123/HR423.pdf" doc-type="PDF" add-date="2017-01-19T11:27:44.970" sort-order="1" publish-date="2017-01-19T13:30:14.620" />
+        </files>
+      </floor-item>
+      <floor-item id="402149" add-date="2017-01-19T11:28:01.457" remove-date="" sort-order="7" publish-date="2017-01-19T13:30:14.620">
+        <legis-num>H.R. 588</legis-num>
+        <floor-text>Securing Access to Networks in Disaster Act </floor-text>
+        <files>
+          <file doc-url="http://docs.house.gov/billsthisweek/20170123/HR588.pdf" doc-type="PDF" add-date="2017-01-19T11:28:01.900" sort-order="1" publish-date="2017-01-19T13:30:14.620" />
+        </files>
+      </floor-item>
+      <floor-item id="402150" add-date="2017-01-19T11:28:14.997" remove-date="" sort-order="8" publish-date="2017-01-19T13:30:14.620">
+        <legis-num>H.R. 555</legis-num>
+        <floor-text>Amateur Radio Parity Act of 2017</floor-text>
+        <files>
+          <file doc-url="http://docs.house.gov/billsthisweek/20170123/HR555.pdf" doc-type="PDF" add-date="2017-01-19T11:28:15.437" sort-order="1" publish-date="2017-01-19T13:30:14.620" />
+        </files>
+      </floor-item>
+      <floor-item id="402151" add-date="2017-01-19T11:28:28.223" remove-date="" sort-order="9" publish-date="2017-01-19T13:30:14.620">
+        <legis-num>H.R. 460</legis-num>
+        <floor-text>Improving Rural Call Quality and Reliability Act of 2017</floor-text>
+        <files>
+          <file doc-url="http://docs.house.gov/billsthisweek/20170123/HR460.pdf" doc-type="PDF" add-date="2017-01-19T11:28:28.667" sort-order="1" publish-date="2017-01-19T13:30:14.620" />
+        </files>
+      </floor-item>
+      <floor-item id="402152" add-date="2017-01-19T11:28:49.627" remove-date="" sort-order="10" publish-date="2017-01-19T13:30:14.620">
+        <legis-num>H.R. 599</legis-num>
+        <floor-text>Federal Communications Commission Consolidated Reporting Act of 2017 </floor-text>
+        <updates>
+          <update-date date="2017-01-23T12:12:08.557" publish-date="2017-01-23T13:00:02.240">
+            <explanatory-notes doc-modified="True">Bill Number Added</explanatory-notes>
+          </update-date>
+        </updates>
+        <files>
+          <file doc-url="http://docs.house.gov/billsthisweek/20170123/HR___Scalise.pdf" doc-type="PDF" add-date="2017-01-19T11:28:50.070" sort-order="1" publish-date="2017-01-19T13:30:14.620" />
+        </files>
+      </floor-item>
+      <floor-item id="402153" add-date="2017-01-19T11:29:06.490" remove-date="" sort-order="11" publish-date="2017-01-19T13:30:14.620">
+        <legis-num>H.R. 582</legis-num>
+        <floor-text>Kari's Law Act of 2017 </floor-text>
+        <files>
+          <file doc-url="http://docs.house.gov/billsthisweek/20170123/HR582.pdf" doc-type="PDF" add-date="2017-01-19T11:29:06.930" sort-order="1" publish-date="2017-01-19T13:30:14.620" />
+        </files>
+      </floor-item>
+      <floor-item id="402154" add-date="2017-01-19T11:29:22.233" remove-date="" sort-order="12" publish-date="2017-01-19T13:30:14.620">
+        <legis-num>H.R. 290</legis-num>
+        <floor-text>Federal Communications Commission Process Reform Act of 2017</floor-text>
+        <updates>
+          <update-date date="2017-01-19T12:49:04.473" publish-date="2017-01-19T13:30:14.620">
+            <explanatory-notes doc-modified="False" />
+          </update-date>
+          <update-date date="2017-01-19T13:08:10.357" publish-date="2017-01-19T13:30:14.620">
+            <explanatory-notes doc-modified="False" />
+          </update-date>
+          <update-date date="2017-01-19T13:08:23.197" publish-date="2017-01-19T13:30:14.620">
+            <explanatory-notes doc-modified="False" />
+          </update-date>
+          <update-date date="2017-01-19T13:08:28.750" publish-date="2017-01-19T13:30:14.620">
+            <explanatory-notes doc-modified="False" />
+          </update-date>
+          <update-date date="2017-01-19T13:08:32.290" publish-date="2017-01-19T13:30:14.620">
+            <explanatory-notes doc-modified="False" />
+          </update-date>
+          <update-date date="2017-01-19T13:08:42.383" publish-date="2017-01-19T13:30:14.620">
+            <explanatory-notes doc-modified="False" />
+          </update-date>
+          <update-date date="2017-01-20T13:11:24.407" publish-date="2017-01-20T13:11:54.730">
+            <explanatory-notes doc-modified="True">Bill Number Added</explanatory-notes>
+          </update-date>
+        </updates>
+        <files>
+          <file doc-url="http://docs.house.gov/billsthisweek/20170123/HR290.pdf" doc-type="PDF" add-date="2017-01-19T11:29:22.683" sort-order="1" publish-date="2017-01-19T13:30:14.620" />
+        </files>
+      </floor-item>
+      <floor-item id="402155" add-date="2017-01-19T11:29:34.650" remove-date="" sort-order="13" publish-date="2017-01-19T13:30:14.620">
+        <legis-num>H.R. 601</legis-num>
+        <floor-text>READ Act, as amended</floor-text>
+        <updates>
+          <update-date date="2017-01-23T18:23:35.293" publish-date="2017-01-23T19:20:01.890">
+            <explanatory-notes doc-modified="True">Bill Number Added</explanatory-notes>
+          </update-date>
+          <update-date date="2017-01-24T10:35:53.363" publish-date="2017-01-24T13:31:29.320">
+            <explanatory-notes doc-modified="True">Technical Correction</explanatory-notes>
+          </update-date>
+        </updates>
+        <files>
+          <file doc-url="http://docs.house.gov/billsthisweek/20170123/HR601-2.pdf" doc-type="PDF" add-date="2017-01-24T10:35:53.840" sort-order="2" publish-date="2017-01-19T13:30:14.620" />
+        </files>
+      </floor-item>
+      <floor-item id="402156" add-date="2017-01-19T11:29:50.063" remove-date="" sort-order="14" publish-date="2017-01-19T13:30:14.620">
+        <legis-num>H.R. 600</legis-num>
+        <floor-text>Digital GAP Act </floor-text>
+        <updates>
+          <update-date date="2017-01-23T18:24:01.487" publish-date="2017-01-23T19:20:01.890">
+            <explanatory-notes doc-modified="True">Bill Number Added</explanatory-notes>
+          </update-date>
+        </updates>
+        <files>
+          <file doc-url="http://docs.house.gov/billsthisweek/20170123/HR___ROYCE.pdf" doc-type="PDF" add-date="2017-01-19T11:29:50.507" sort-order="1" publish-date="2017-01-19T13:30:14.620" />
+        </files>
+      </floor-item>
+      <floor-item id="402157" add-date="2017-01-19T11:30:04.460" remove-date="" sort-order="15" publish-date="2017-01-19T13:30:14.620">
+        <legis-num>H.R. 589</legis-num>
+        <floor-text>Department of Energy Research and Innovation Act, as amended</floor-text>
+        <updates>
+          <update-date date="2017-01-19T17:24:13.870" publish-date="2017-01-19T17:30:14.657">
+            <explanatory-notes doc-modified="True">Technical Correction</explanatory-notes>
+          </update-date>
+          <update-date date="2017-01-19T17:24:25.897" publish-date="2017-01-19T17:30:14.657">
+            <explanatory-notes doc-modified="False" />
+          </update-date>
+          <update-date date="2017-01-20T13:10:52.427" publish-date="2017-01-20T13:11:54.730">
+            <explanatory-notes doc-modified="False" />
+          </update-date>
+          <update-date date="2017-01-23T18:24:41.780" publish-date="2017-01-23T19:20:01.890">
+            <explanatory-notes doc-modified="True">Technical Correction</explanatory-notes>
+          </update-date>
+        </updates>
+        <files>
+          <file doc-url="http://docs.house.gov/billsthisweek/20170123/HR589-2.pdf" doc-type="PDF" add-date="2017-01-23T18:24:42.430" sort-order="3" publish-date="2017-01-19T13:30:14.620" />
+        </files>
+      </floor-item>
+    </floor-items>
+  </category>
+  <category type="Items that may be considered pursuant to a rule" sort-order="4">
+    <floor-items>
+      <floor-item id="402142" add-date="2017-01-17T13:42:57.773" remove-date="" sort-order="1" publish-date="2017-01-17T14:15:05.413">
+        <legis-num>H.R. 7</legis-num>
+        <floor-text>No Taxpayer Funding for Abortion and Abortion Insurance Full Disclosure Act of 2017</floor-text>
+        <updates>
+          <update-date date="2017-01-17T13:44:11.827" publish-date="2017-01-17T14:15:05.413">
+            <explanatory-notes doc-modified="False" />
+          </update-date>
+          <update-date date="2017-01-17T13:44:46.473" publish-date="2017-01-17T14:15:05.413">
+            <explanatory-notes doc-modified="False" />
+          </update-date>
+        </updates>
+        <files>
+          <file doc-url="http://docs.house.gov/billsthisweek/20170123/BILLS-115hr7.pdf" doc-type="PDF" add-date="2017-01-17T13:42:58.190" sort-order="1" publish-date="2017-01-17T14:15:05.413" />
+          <file doc-url="https://www.congress.gov/115/bills/hr7/BILLS-115hr7ih.xml" doc-type="XML" add-date="2017-01-17T13:44:46.867" sort-order="2" publish-date="2017-01-17T14:15:05.413" />
+        </files>
+        <floor-subitems>
+          <floor-subitem id="500797" add-date="2017-01-24T09:31:39.557" remove-date="" sort-order="1" publish-date="2017-01-24T09:32:32.577">
+            <legis-num />
+            <floor-text>H. Rept. 115-5—Report to accompany H. Res. 55</floor-text>
+            <files>
+              <file doc-url="https://www.congress.gov/115/crpt/hrpt5/CRPT-115hrpt5.pdf" doc-type="PDF" add-date="2017-01-24T09:31:39.947" sort-order="1" publish-date="" />
+            </files>
+          </floor-subitem>
+        </floor-subitems>
+      </floor-item>
+    </floor-items>
+  </category>
+</floorschedule>
