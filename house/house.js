@@ -1,14 +1,26 @@
 const fs = require('fs')
 const xml2js = require('xml2js')
+const moment = require('moment')
+const request = require('request')
 
 BillFetcher.prototype.FetchBills = function (date, cb) {
-  //if it's a file we probably aren't too worried about
   if (typeof date == "function") {
     cb = date
+    if (this.File != "") {
+      return this.fetchFromFile(cb)
+    }
+    var d = buildDate()
+    return this.fetchFromURL(d, cb)
+  } else {
+    if (this.File) {
+      return cb(Error("can't use file with date")
+    }
+    return this.fetchFromURL(date, cb)
   }
-  if (this.File != "") {
-    return this.fetchFromFile(cb)
-  }
+}
+
+BillFetcher.prototype.fetchFromURL = function (date, cb) {
+  var u = buildURL()
 }
 
 BillFetcher.prototype.fetchFromFile = function (cb) {
@@ -52,4 +64,12 @@ function BillFetcher(opts) {
     this.parser = new xml2js.Parser()
 }
 
-module.exports = BillFetcher
+// to be used if there's no date on FetchBills
+// input
+function buildDate () {
+  var now = moment()
+  now.subract(7-now.day(), 'days')
+  return now.format('YYYY MM DD').split(' ').join('')
+}
+
+module.exports = BillFetchers
