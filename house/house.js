@@ -6,30 +6,39 @@ const request = require('request')
 BillFetcher.prototype.FetchBills = function (date, cb) {
   if (typeof date == "function") {
     cb = date
-    if (this.File != "") {
+    if (this.File && this.File != "") {
       return this.fetchFromFile(cb)
     }
     var d = buildDate()
     return this.fetchFromURL(d, cb)
   } else {
     if (this.File) {
-      return cb(Error("can't use file with date")
+      return cb(Error("can't use file with date"))
     }
     return this.fetchFromURL(date, cb)
   }
 }
 
 BillFetcher.prototype.fetchFromURL = function (date, cb) {
-  var u = buildURL()
+  var u = this.buildWeeklyURL(date)
+  console.log(u)
+  request(u, (err, res, body) => {
+    if (err) {
+      return cb(err)
+    }
+    return this.parseData(body, cb)
+  })
+}
+BillFetcher.prototype.buildWeeklyURL = function (date) {
+  return this.URL + '/Download.aspx?file=/billsthisweek/' + date + '/' + date + '.xml'
 }
 
 BillFetcher.prototype.fetchFromFile = function (cb) {
-  var _this = this
   fs.readFile(this.File, (err, data) => {
     if (err) {
       return cb(err)
     }
-    return _this.parseData(data, cb)
+    return this.parseData(data, cb)
   })
 }
 
@@ -46,6 +55,8 @@ BillFetcher.prototype.parseData = function (data, cb) {
           obj['bill-number'] = result.floorschedule.category[i]['floor-items'][j]['floor-item'][k]['legis-num'][0]
           Object.assign(obj, result.floorschedule.category[i]['floor-items'][j]['floor-item'][k]['$'])
           obj['bill-link'] = result.floorschedule.category[i]['floor-items'][j]['floor-item'][k]['files'][0]['file'][0]['$']['doc-url']
+          delete(obj['sort-order'])
+          delete(obj['remove-date'])
           a.push(obj)
         }
       }
@@ -58,8 +69,8 @@ function BillFetcher(opts) {
     if (opts.File != "" && (opts.URL == "" || !opts.URL)) {
       this.File = opts.File
     }
-    if (opts.URL != "" && (opts.File == "" || !opts.url)) {
-      this.URL = opts.url
+    if (opts.URL != "" && (opts.File == "" || !opts.File)) {
+      this.URL = opts.URL
     }
     this.parser = new xml2js.Parser()
 }
@@ -67,9 +78,7 @@ function BillFetcher(opts) {
 // to be used if there's no date on FetchBills
 // input
 function buildDate () {
-  var now = moment()
-  now.subract(7-now.day(), 'days')
-  return now.format('YYYY MM DD').split(' ').join('')
+  return moment().subtract(moment().day()-1, 'days').format('YYYY MM DD').split(' ').join('')
 }
 
-module.exports = BillFetchers
+module.exports = BillFetcher

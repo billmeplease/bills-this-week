@@ -8,11 +8,10 @@ const app = express()
 
 // Run server to listen on port 8000.
 const server = app.listen(8000, () => {
-  console.log('listening on *:8000')
+  //console.log('listening on *:8000')
 })
 
-var fetcher = new BillFetcher({File:__dirname + '/fixtures/20170123.xml'})
-console.log(fetcher.File)
+var fetcher = new BillFetcher({URL: 'http://docs.house.gov/floor'})
 fetcher.FetchBills((err, bills) => {
   console.log(JSON.stringify(bills))
 })
