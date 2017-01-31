@@ -21,7 +21,6 @@ BillFetcher.prototype.FetchBills = function (date, cb) {
 
 BillFetcher.prototype.fetchFromURL = function (date, cb) {
   var u = this.buildWeeklyURL(date)
-  console.log(u)
   request(u, (err, res, body) => {
     if (err) {
       return cb(err)
@@ -55,6 +54,7 @@ BillFetcher.prototype.parseData = function (data, cb) {
           obj['bill-number'] = result.floorschedule.category[i]['floor-items'][j]['floor-item'][k]['legis-num'][0]
           Object.assign(obj, result.floorschedule.category[i]['floor-items'][j]['floor-item'][k]['$'])
           obj['bill-link'] = result.floorschedule.category[i]['floor-items'][j]['floor-item'][k]['files'][0]['file'][0]['$']['doc-url']
+          obj['description'] = result.floorschedule.category[i]['floor-items'][j]['floor-item'][k]['floor-text'][0]
           delete(obj['sort-order'])
           delete(obj['remove-date'])
           a.push(obj)
