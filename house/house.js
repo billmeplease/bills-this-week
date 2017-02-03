@@ -6,7 +6,7 @@ const request = require('request')
 BillFetcher.prototype.FetchBills = function (date, cb) {
   if (typeof date == "function") {
     cb = date
-    if (this.File && this.File != "") {
+    if (this.File) {
       return this.fetchFromFile(cb)
     }
     var d = buildDate()
@@ -51,10 +51,16 @@ BillFetcher.prototype.parseData = function (data, cb) {
       for (var j = 0; j < result.floorschedule.category[i]['floor-items'].length; j++) {
         for (var k = 0; k < result.floorschedule.category[i]['floor-items'][j]['floor-item'].length; k++) {
           var obj = {}
-          obj['bill-number'] = result.floorschedule.category[i]['floor-items'][j]['floor-item'][k]['legis-num'][0]
+          obj.billNumber = result.floorschedule.category[i]['floor-items'][j]['floor-item'][k]['legis-num'][0]
           Object.assign(obj, result.floorschedule.category[i]['floor-items'][j]['floor-item'][k]['$'])
-          obj['bill-link'] = result.floorschedule.category[i]['floor-items'][j]['floor-item'][k]['files'][0]['file'][0]['$']['doc-url']
-          obj['description'] = result.floorschedule.category[i]['floor-items'][j]['floor-item'][k]['floor-text'][0]
+          obj.billLink = result.floorschedule.category[i]['floor-items'][j]['floor-item'][k]['files'][0]['file'][0]['$']['doc-url']
+          obj.description = result.floorschedule.category[i]['floor-items'][j]['floor-item'][k]['floor-text'][0]
+          obj.publishDate = obj['publish-date']
+          obj.billNumber = obj['bill-number']
+          obj.addDate = obj['add-date']
+          delete(obj['add-date'])
+          delete(obj['bill-number'])
+          delete(obj['publish-date'])
           delete(obj['sort-order'])
           delete(obj['remove-date'])
           a.push(obj)
